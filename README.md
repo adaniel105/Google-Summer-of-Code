@@ -37,7 +37,7 @@ The primary aim of this project will be the refactoring of a domain specific lan
 
 ### 2. Component Implementation Using New Framework
 - Implementated the following components using the new and improved framework:
-  - GSOC leaderboard (for gamifications of contributions to the respective organization)
+  - GSOC leaderboard (for gamification of contributions to the respective organization)
   - Embeddedchat (seamless Rocket.Chat integration for community communication)
   - A video-conferencing component (video calling functionality for community meetings)
   - Completion of the EventPoster component 
