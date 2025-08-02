@@ -76,11 +76,7 @@ Interacting with the Rocket.Chat community and receiving advice from my mentors 
 Here are some key lessons I've learned during my time with Rocket.Chat:
 
 - TypeScript Compiler API: I had never worked with the typescript compiler api prior to this project, and this proved to be one of the initial hurdles to my first ever commit to Rocket.Chat, but over time, researching AST concepts, typescript, and just tinkering with the project, I have explored a good amount of its functionality and applicability, and would be comfortable using it in future projects.
-- Working with Open source tooling: This project significantly enhanced my knowledge and ability to utilize tooling from within the wider open source ecosystem. Open source solutions were used extensively in the implementation of each of my components i.e Jitsi, Keycloak e.t.c and this project helped enhance my ability to understanding and integrated these respective tools
-
-I'm deeply grateful to the Rocket.Chat community and development team for giving me the chance to contribute to this project. This experience has not only improved my programming skills but also made me appreciate the collaborative nature of open-source development.
-A big thank you to my mentors, Anjaneya Gupta and Dhruv Jain, for their ongoing support and guidance throughout the GSoC project. Their timely responses and insightful advice made the process smoother and helped me overcome many challenges.
-I'm excited to keep contributing to the Community Hub project and look forward to future opportunities to grow and learn with Rocket.Chat.
+- Working with Open source tooling: This project significantly enhanced my knowledge and ability to utilize tooling from within the wider open source ecosystem. Open source solutions were used extensively in the implementation of each of my components i.e Jitsi, Keycloak e.t.c and this project helped enhance my ability to understanding and integrated these respective tools.
 
 ## ⚙️ What's Left to Do?
 
@@ -88,29 +84,28 @@ While significant progress was made, several areas remain for future development
 
 ### 1. Package Installation Functionality
 - **Requirement**: Implement automated package installation based on selected components
-- **Current State**: Manual dependency management
-- **Next Steps**: Develop component dependency resolver and automated installation scripts
+- **Current State**: All dependencies installed on base project
+- **Next Steps**:  Install dependencies only as needed by the respective specified components
 
 ### 2. User Authentication Implementation
 - **Requirement**: Complete user authentication using open source authentication providers
 - **Current State**: Architecture and foundation completed
-- **Next Steps**: Implement OAuth2/OIDC integration with popular providers (Auth0, Keycloak, etc.)
+- **Next Steps**:Implement OAuth2/OIDC integration with popular providers (Auth0, Keycloak, etc.)
 
 ### 3. Super Profile and Login Persistence
-- **Requirement**: Develop comprehensive user profile management with persistent sessions
-- **Current State**: Basic user session handling
-- **Next Steps**: Implement profile customization, preference management, and cross-session persistence
+  Develop comprehensive user profile management with session persistence
 
 ### 5. Testing and Deployment
 - Implememtation of a CI/CD pipeline for automated testing and deployment
 
 ## Conclusion
 
-The GSoC 2025 Community Hub project successfully achieved its primary objectives while providing valuable learning experiences and contributing meaningful improvements to the Rocket.Chat ecosystem. The migration to Svelte5 and Bun provides a solid foundation for future development, while the implemented components demonstrate the framework's capabilities for real-world community management.
+I'm deeply grateful to the Rocket.Chat community and development team for giving me the chance to contribute to this project. This experience has not only improved my programming skills but also made me appreciate the collaborative nature of open-source development.
 
-The project not only met its technical goals but also established best practices for component development, build pipeline management, and community engagement tools. The challenges encountered and solved during development have resulted in a more robust and scalable solution that will benefit the broader open source community.
+A big thank you to my mentors, Anjaneya Gupta and Dhruv Jain, for their ongoing support and guidance throughout the GSoC project. Their timely responses and insightful advice made the process smoother and helped me overcome many challenges.
+I'm excited to keep contributing to the Community Hub project and look forward to future opportunities to grow and learn with Rocket.Chat.
 
-Working with the Rocket.Chat team and my mentors, Anjaneya Gupta and Dhruv Jain, has been an incredibly rewarding experience. Their guidance, code reviews, and technical discussions significantly contributed to both the project's success and my professional development.
+Working with the Rocket.Chat team and my mentors has been an incredibly rewarding experience. Their guidance, code reviews, and technical discussions significantly contributed to both the project's success and my professional development.
 
 The Community Hub project is now well-positioned for continued development and adoption by GSoC organizations worldwide, providing them with powerful tools to manage and engage their communities effectively.
 
