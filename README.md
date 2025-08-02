@@ -45,24 +45,24 @@ The primary aim of this project will be the refactoring of a domain specific lan
 
 ## 🕸 Challenges Faced 
 
-### Handling Updates for Real Time components
+1. ### Handling Updates for Real Time components
 Figuring out how components with real-time updates would fit in our static and lightweight application was an initial challenge, 
 but a workaround using build scripts which would run at periodic intervals was implemented, and resolved this problem
 
-### Cross-Domain Authentication
+2. ### Cross-Domain Authentication
 Implementing single sign-on authentication across different domains proved technically challenging and complex. Redefined requirements to simplify the authentication architecture. The new approach requires the authentication provider and application to be deployed on the same domain, eliminating cross-domain complexities and effectively sidestepping the problem.
 
-### Framework Migration Complexity
+3. ### Framework Migration Complexity
 Migrating from React to Svelte5 while maintaining existing functionality and component compatibility.
 
 ## ⛓️ Relevant Merge Requests
-- [Layer back DSL from 2024](https://github.com/RocketChat/GSoC-Community-Hub/pull/47)
-- [Fetch data for the Statscounter component](https://github.com/RocketChat/GSoC-Community-Hub/pull/61)
-- [Addition of GSOC leaderboard](https://github.com/RocketChat/GSoC-Community-Hub/pull/67)
-- [Fixing Directory Structure](https://github.com/RocketChat/GSoC-Community-Hub/pull/76)
-- [Addition of video conferencing component](https://github.com/RocketChat/GSoC-Community-Hub/pull/79)
-- [Implementation of the Embeddedchat component](https://github.com/RocketChat/GSoC-Community-Hub/pull/81)
-- [Data fetching for the Eventposter](https://github.com/RocketChat/GSoC-Community-Hub/pull/82)
+- [#47 - Layer back DSL from 2024](https://github.com/RocketChat/GSoC-Community-Hub/pull/47)
+- [#61 - Fetch data for the Statscounter component](https://github.com/RocketChat/GSoC-Community-Hub/pull/61)
+- [#67 - Addition of GSOC leaderboard](https://github.com/RocketChat/GSoC-Community-Hub/pull/67)
+- [#76 - Fixing Directory Structure](https://github.com/RocketChat/GSoC-Community-Hub/pull/76)
+- [#79 - Addition of video conferencing component](https://github.com/RocketChat/GSoC-Community-Hub/pull/79)
+- [#81 - Implementation of the Embeddedchat component](https://github.com/RocketChat/GSoC-Community-Hub/pull/81)
+- [#82 - Data fetching for the Eventposter](https://github.com/RocketChat/GSoC-Community-Hub/pull/82)
 
 ## 📋 Learning Experience
 
@@ -70,9 +70,8 @@ GSoC'25 with Rocket.Chat has been an incredibly rewarding experience. Before sta
 Interacting with the Rocket.Chat community and receiving advice from my mentors has been invaluable. I feel like I've made some great connections along the way, which has made the experience even more enjoyable.
 Here are some key lessons I've learned during my time with Rocket.Chat:
 
-- TypeScript Compiler API: I had never worked with the ts compiler api prior to this project, and this proved to be one of the initial hurdles to my first ever commit to Rocket.Chat, but over time, researching AST concepts, typescript, and just tinkering with the project, I have explored a good amount of its functionality and applicability, and would be comfortable using it in future projects.
-- Navigating Large Codebases: At first, I found it challenging to work with the existing Community Hub codebase. I felt overwhelmed by the compilation system's complexity. However, over time, I improved my ability to navigate and contribute to the codebase, including successfully migrating the entire framework to Svelte5 and Bun.
-- Problem-Solving Skills: This project significantly enhanced my ability to think creatively about technical constraints. The real-time updates challenge taught me that sometimes the best solutions come from working with your limitations rather than against them.
+- TypeScript Compiler API: I had never worked with the typescript compiler api prior to this project, and this proved to be one of the initial hurdles to my first ever commit to Rocket.Chat, but over time, researching AST concepts, typescript, and just tinkering with the project, I have explored a good amount of its functionality and applicability, and would be comfortable using it in future projects.
+- Working with Open source tooling: This project significantly enhanced my knowledge and ability to utilize tooling from within the wider open source ecosystem. Open source solutions were used extensively in the implementation of each of my components i.e Jitsi, Keycloak e.t.c and this project helped enhance my ability to understanding and integrated these respective tools
 
 I'm deeply grateful to the Rocket.Chat community and development team for giving me the chance to contribute to this project. This experience has not only improved my programming skills but also made me appreciate the collaborative nature of open-source development.
 A big thank you to my mentors, Anjaneya Gupta and Dhruv Jain, for their ongoing support and guidance throughout the GSoC project. Their timely responses and insightful advice made the process smoother and helped me overcome many challenges.
