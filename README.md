@@ -1,4 +1,4 @@
-# GSoC Community Hub 2025 - Final Report
+# GSoC Community Hub 2025 - Work Summary
 **Mentee:** Daniel Akinola  
 
 **Mentor(s):** [Anjaneya Gupta](https://github.com/anjy7), [Dhruv Jain](https://github.com/dhruvjain99)
