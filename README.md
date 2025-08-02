@@ -22,8 +22,12 @@ Components are specified in an `.agml` component layout file with an HTML-tag li
 
 The project aims to provide organizations with a turnkey solution for managing their GSoC communities, featuring dynamic leaderboards, embedded chat functionality, video conferencing capabilities, and customizable event management tools. The framework's component-based architecture allows organizations to easily customize their community hubs without extensive development knowledge.
 
+
+
 ## 🎯 Objective
 The primary aim of this project will be the refactoring of a domain specific language compiler to produce Svelte components rather than React Components, in order to enable the translation of components specified using minimal syntax to robust, secure and functional web applications at scale. Multiple components will be implemented using the new svelte framework , such as a video conferencing meet-your-mentor component, and a gsoc Leaderboard component which would allow for the gamification of contributions to the Rocket.Chat community. Finally, all components will be adapted to fully meet the pre-scaled “serverless” vision for the application, so components can be specified can be specified using terse syntax and transformed into full fledged applications at build time. All of this will culminate in the implementation of a functional Community Hub to be used for future summers.
+
+
 
 ## ✅ What I Accomplished
 
@@ -43,16 +47,17 @@ The primary aim of this project will be the refactoring of a domain specific lan
 - Modified the directory structure to seperate the framework from code/components generated.
 - Refactored the compiler to accomodate said changes in build paths
 
+
 ## 🕸 Challenges Faced 
 
-1. ### Handling Updates for Real Time components
+### 1. Handling Updates for Real Time components
 Figuring out how components with real-time updates would fit in our static and lightweight application was an initial challenge, 
 but a workaround using build scripts which would run at periodic intervals was implemented, and resolved this problem
 
-2. ### Cross-Domain Authentication
+### 2. Cross-Domain Authentication
 Implementing single sign-on authentication across different domains proved technically challenging and complex. Redefined requirements to simplify the authentication architecture. The new approach requires the authentication provider and application to be deployed on the same domain, eliminating cross-domain complexities and effectively sidestepping the problem.
 
-3. ### Framework Migration Complexity
+### 3. Framework Migration Complexity
 Migrating from React to Svelte5 while maintaining existing functionality and component compatibility.
 
 ## ⛓️ Relevant Merge Requests
