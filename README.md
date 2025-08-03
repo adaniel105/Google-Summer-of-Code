@@ -83,19 +83,15 @@ Here are some key lessons I've learned during my time with Rocket.Chat:
 While significant progress was made, several areas remain for future development:
 
 ### 1. Package Installation Functionality
-- **Requirement**: Implement automated package installation based on selected components
-- **Current State**: All dependencies installed on base project
-- **Next Steps**:  Install dependencies only as needed by the respective specified components
+- Implement automated package installation based on selected component. Currently, all of the dependencies needed by every component, are installed on base project. Moving forward, we want to be able to install dependencies only as needed by the specified components.
 
 ### 2. User Authentication Implementation
-- **Requirement**: Complete user authentication using open source authentication providers
-- **Current State**: Architecture and foundation completed
-- **Next Steps**:Implement OAuth2/OIDC integration with popular providers (Auth0, Keycloak, etc.)
+- Complete user authentication using open source authentication provide. Implement OAuth2/OIDC integration with popular providers (Auth0, Keycloak, etc.)
 
 ### 3. Super Profile and Login Persistence
-  Develop comprehensive user profile management with session persistence
+-  Develop comprehensive user profile management with session persistence
 
-### 5. Testing and Deployment
+### 4. Testing and Deployment
 - Implememtation of a CI/CD pipeline for automated testing and deployment
 
 ## Conclusion
