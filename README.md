@@ -76,7 +76,7 @@ Interacting with the Rocket.Chat community and receiving advice from my mentors 
 Here are some key lessons I've learned during my time with Rocket.Chat:
 
 - TypeScript Compiler API: I had never worked with the typescript compiler api prior to this project, and this proved to be one of the initial hurdles to my first ever commit to Rocket.Chat, but over time, researching AST concepts, typescript, and just tinkering with the project, I have explored a good amount of its functionality and applicability, and would be comfortable using it in future projects.
-- Working with Open source tooling: This project significantly enhanced my knowledge and ability to utilize tooling from within the wider open source ecosystem. Open source solutions were used extensively in the implementation of each of my components i.e Jitsi, Keycloak e.t.c and this project helped enhance my ability to understanding and integrated these respective tools.
+- Working with Open source tooling: This project significantly enhanced my knowledge and ability to utilize tooling from within the wider open source ecosystem. Open source solutions were used extensively in the implementation of each of my components i.e Jitsi, Keycloak e.t.c and this project helped enhance my ability to understand and integrate these respective tools.
 
 ## ⚙️ What's Left to Do?
 
